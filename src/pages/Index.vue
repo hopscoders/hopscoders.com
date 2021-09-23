@@ -11,9 +11,32 @@
             <p class="paragraph-light">
               We are passioned about homebrewing and we are trying to create community around it.
             </p>
+
             <p class="paragraph-light">
-             @hopscoders
+            If you are inrested about our plans and actions, leave us your email.
             </p>
+
+            <div id="mc_embed_signup">
+              <form
+                  action="https://gmail.us5.list-manage.com/subscribe/post?u=8d029421d02faf36599f3bce7&amp;id=853d50732a"
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                  target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
+                         required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                            name="b_8d029421d02faf36599f3bce7_853d50732a"
+                                                                                            tabindex="-1" value="">
+                  </div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                            class="button"></div>
+                </div>
+              </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+
 
           </div>
           <img src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdd6b676ec13b0f3118ce_Group.png"
@@ -70,5 +93,24 @@ export default {
 </script>
 
 <style>
-@import url(https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/css/hopscoders.webflow.998202329.css)
+@import url(https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/css/hopscoders.webflow.998202329.css);
+
+#mc_embed_signup_scroll {
+  display: flex;
+}
+
+input {
+  outline: none;
+}
+
+#mce-EMAIL,
+#mc-embedded-subscribe {
+  padding: 4px 15px;
+  border: 1px solid #767679;
+}
+
+#mc-embedded-subscribe {
+  border: 1px solid #bf5a3c;
+  background-color: #bf5a3c;
+}
 </style>
