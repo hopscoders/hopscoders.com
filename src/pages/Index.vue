@@ -1,21 +1,5 @@
 <template>
   <Layout>
-    <div class="container-2 w-container">
-      <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
-           role="banner" class="navigation w-nav">
-        <div class="navigation-items"><a href="/" class="logo-link w-nav-brand" aria-label="home"><img
-            src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdce5a2f79ea199f4aef1_Vector.png"
-            width="20" alt="" class="logo-image"></a><a href="#" class="link-2">hopscoders</a>
-          <div class="navigation-wrap">
-            <div class="menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button"
-                 tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><img
-                src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdbddf55d55840a36b848_menu-icon.png"
-                width="22" alt="" class="menu-icon"></div>
-          </div>
-        </div>
-        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="height: 1797px; display: block;"></div>
-      </div>
-    </div>
     <div class="section">
       <div class="container">
         <div class="w-layout-grid about-intro-grid">
@@ -26,7 +10,12 @@
               project made for the love of beer and code.</p>
             <p class="paragraph-light">
               We are passioned about homebrewing and we are trying to create community around it.
-            </p></div>
+            </p>
+            <p class="paragraph-light">
+             @hopscoders
+            </p>
+
+          </div>
           <img src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdd6b676ec13b0f3118ce_Group.png"
                id="w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c8-5d36b83e"
                sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 1070px) 94vw, 1006px"
@@ -65,13 +54,7 @@
     <!--        </div>-->
     <!--      </div>-->
     <!--    </div>-->
-    <div class="footer-wrap">
-      <div><a href="https://webflow.com/" target="_blank" class="webflow-link w-inline-block"><img
-          src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdce5a2f79ea199f4aef1_Vector.png" width="15"
-          alt="" class="webflow-logo-tiny">
-        <div class="paragraph-tiny">Powered by hopscoders</div>
-      </a></div>
-    </div>
+
 
     <!--[if lte IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
