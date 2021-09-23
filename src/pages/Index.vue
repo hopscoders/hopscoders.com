@@ -106,6 +106,7 @@ input {
 #mce-EMAIL,
 #mc-embedded-subscribe {
   padding: 4px 15px;
+  height: 30px;
   border: 1px solid #767679;
 }
 
