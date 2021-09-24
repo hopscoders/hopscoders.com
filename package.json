@@ -5,7 +5,7 @@
   "author": "hopscoders <code@hopscoders.com>",
   "license": "MIT",
   "scripts": {
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build"
   },
