@@ -1,23 +1,31 @@
 <template>
   <Layout>
     <div class="container">
+      <div class="d-flex justify-content-between align-items-start">
+          <g-image src="~/assets/images/logo.svg" width="80"/>
+          <div class="d-flex align-items-center">
+            <p class="mb-0 text-primary">Follow us</p>
+            <span class="mx-3 text-primary">|</span>
+            <g-image src="~/assets/images/icons/github.svg" width="30"/>
+          </div>
+      </div>
       <div class="row">
-        <div class="col-md-5">
-          <div class="d-flex flex-column">
-            <h1>Hi there! 🍻</h1>
-            <p>
+        <div class="col-md-5 d-flex flex-column justify-content-center pe-lg-5">
+          
+            <h1 class="text-primary">Hi there! 🍻</h1>
+            <p class="text-primary">
               We are creating something special for you. Hopscoders is the first
               open source project made for the love of beer and code.
             </p>
-            <p>
+            <p class="text-primary">
               We are passioned about homebrewing and we are trying to create
               community around it.
             </p>
-            <p>
+            <p class="text-primary">
               If you are inrested about our plans and actions, leave us your
               email.
             </p>
-          </div>
+          
           <!-- Form -->
           <div id="mc_embed_signup">
             <form
@@ -64,6 +72,9 @@
             </form>
           </div>
           <!-- End of form -->
+        </div>
+        <div class="col-md-7">
+          <g-image src="~/assets/images/illustration.svg" class="img-fluid"/>
         </div>
       </div>
     </div>
