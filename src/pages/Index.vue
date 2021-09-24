@@ -1,117 +1,119 @@
 <template>
   <Layout>
-    <div class="section">
+    <section class="hero">
       <div class="container">
-        <div class="w-layout-grid about-intro-grid">
-          <div id="w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c1-5d36b83e" class="about-head-text-wrap">
-            <div class="label cc-about-light">Hey there! 🍻</div>
-            <h2 class="hi-there-heading">Coming soon !</h2>
-            <p class="paragraph-light">We are creating something special for you. Hopscoders is the first open source
-              project made for the love of beer and code.</p>
-            <p class="paragraph-light">
-              We are passioned about homebrewing and we are trying to create community around it.
+        <div class="row justify-content-between">
+          <div class="col-lg-4 d-flex flex-column justify-content-center mb-5 mb-md-0">
+            <h1 class="text-center text-md-start text-primary mb-4 mt-4">Hi there! 🍻</h1>
+            <p class="text-center text-md-start text-primary">
+              We are creating something special for you. <br />Hopscoders is the
+              first open source project made for the love of beer and code.
+            </p>
+            <p class="text-center text-md-start text-primary">
+              We are passioned about homebrewing and we are trying to create
+              community around it.
+            </p>
+            <p class="text-center text-md-start text-primary">
+              If you are inrested about our plans and actions, leave us your
+              email.
             </p>
 
-            <p class="paragraph-light">
-            If you are inrested about our plans and actions, leave us your email.
-            </p>
-
+            <!-- Form -->
             <div id="mc_embed_signup">
               <form
-                  action="https://gmail.us5.list-manage.com/subscribe/post?u=8d029421d02faf36599f3bce7&amp;id=853d50732a"
-                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                  target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
-                         required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                            name="b_8d029421d02faf36599f3bce7_853d50732a"
-                                                                                            tabindex="-1" value="">
+                action="https://gmail.us5.list-manage.com/subscribe/post?u=8d029421d02faf36599f3bce7&amp;id=853d50732a"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate mt-4"
+                target="_blank"
+                novalidate
+              >
+              
+                  <div id="mc_embed_signup_scroll" class="d-flex input-group mb-3 flex-lg-nowrap">
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      class="email w-100 form-control"
+                      id="mce-EMAIL"
+                      placeholder="email address"
+                      required
+                    />
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div
+                      style="position: absolute; left: -5000px;"
+                      aria-hidden="true"
+                    >
+                      <input
+                        type="text"
+                        name="b_8d029421d02faf36599f3bce7_853d50732a"
+                        tabindex="-1"
+                        value=""
+                      />
+                    </div>
+                    <!-- end of -->
+                    <div class="clear input-group-append w-100 mt-3 mt-md-0">
+                      <input
+                        type="submit"
+                        value="Subscribe"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                        class="button btn btn-primary text-white w-100"
+                      />
+                    </div>
                   </div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                            class="button"></div>
-                </div>
+
               </form>
             </div>
-
-            <!--End mc_embed_signup-->
-
-
+            <!-- End of form -->
           </div>
-          <img src="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdd6b676ec13b0f3118ce_Group.png"
-               id="w-node-_9b2922ad-09b1-aebb-0430-7dee623c62c8-5d36b83e"
-               sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 1070px) 94vw, 1006px"
-               srcset="https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdd6b676ec13b0f3118ce_Group-p-500.png 500w, https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/614cdd6b676ec13b0f3118ce_Group.png 1006w"
-               alt=""></div>
+          <div class="col-lg-7">
+            <g-image
+              src="~/assets/images/illustration.svg"
+              class="w-100 img-fluid"
+            />
+          </div>
+        </div>
       </div>
-    </div>
-    <!--    <div class="section cc-contact">-->
-    <!--      <div class="container">-->
-    <!--        <div class="contact">-->
-    <!--          <div class="contact-headline"><h3>Want to get in touch?<br>Drop me a line!</h3>-->
-    <!--            <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p></div>-->
-    <!--          <div class="contact-form-wrap">-->
-    <!--            <div class="w-form">-->
-    <!--              <form id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" class="contact-form">-->
-    <!--                <div class="w-layout-grid contact-form-grid">-->
-    <!--                  <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a32-d0df4a24"><label for="Name-3">Name</label><input-->
-    <!--                      type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name"-->
-    <!--                      placeholder="Enter your name" id="Name"></div>-->
-    <!--                  <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a36-d0df4a24"><label for="Email-3">Email-->
-    <!--                    Address</label><input type="email" class="text-field w-input" maxlength="256" name="Email"-->
-    <!--                                          data-name="Email" placeholder="Enter your email" id="Email" required=""></div>-->
-    <!--                  <div id="w-node-d783a17e-0b35-a13a-0448-a852d0df4a3a-d0df4a24"><label for="Message">Form Label</label><textarea-->
-    <!--                      id="Message" name="Message" placeholder="Enter your message" maxlength="5000" data-name="Message"-->
-    <!--                      class="text-field cc-textarea w-input"></textarea></div>-->
-    <!--                </div>-->
-    <!--                <input type="submit" value="Submit" data-wait="Please wait..." class="button w-button"></form>-->
-    <!--              <div class="status-message cc-success-message w-form-done">-->
-    <!--                <div>Thank you! Your submission has been received!</div>-->
-    <!--              </div>-->
-    <!--              <div class="status-message cc-error-message w-form-fail">-->
-    <!--                <div>Oops! Something went wrong while submitting the form.</div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-
-    <!--[if lte IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+    </section>
+    <section class="hacktober">
+      <div class="container d-flex flex-column align-items-center my-5 py-5">
+        <h2 class="text-primary mt-5 mb-3">We are taking part in</h2>
+        <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+          <g-image
+            src="~/assets/images/hacktober.svg"
+            class="img-fluid my-5"
+            width="400"
+          />
+        </a>
+        <h2 class="text-primary mt-4 mb-3">Join us on:</h2>
+        <a href="https://github.com/hopscoders" target="_blank">
+          <g-image
+            src="~/assets/images/icons/github.svg"
+            class="img-fluid"
+            width="50"
+          />
+        </a>
+      </div>
+    </section>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Home'
-  }
-}
+    title: "Home",
+  },
+};
 </script>
 
 <style>
-@import url(https://uploads-ssl.webflow.com/614cdbddf55d55aaaf36b837/css/hopscoders.webflow.998202329.css);
-
 #mc_embed_signup_scroll {
   display: flex;
 }
 
 input {
   outline: none;
-}
-
-#mce-EMAIL,
-#mc-embedded-subscribe {
-  padding: 4px 15px;
-  height: 30px;
-  border: 1px solid #767679;
-}
-
-#mc-embedded-subscribe {
-  border: 1px solid #bf5a3c;
-  background-color: #bf5a3c;
 }
 </style>

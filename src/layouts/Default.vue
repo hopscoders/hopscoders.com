@@ -1,5 +1,9 @@
 <template>
-  <div><slot></slot></div>
+  <div>
+    <h-navbar></h-navbar>
+    <slot></slot>
+    <h-footer></h-footer>
+  </div>
 </template>
 
 <static-query>
@@ -10,12 +14,13 @@ query {
 }
 </static-query>
 
-<style>
-#app {
-  overflow: hidden;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+<script>
+import HNavbar from '~/components/Navbar.vue'
+import HFooter from '~/components/Footer.vue'
+export default {
+  components: {
+    HNavbar,
+    HFooter
+  }
 }
-</style>
+</script>
