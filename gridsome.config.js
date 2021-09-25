@@ -8,9 +8,11 @@ module.exports = {
   siteName: 'hopscoders',
   plugins: [
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: 'gridsome-plugin-gtm',
       options: {
-        id: 'G-4R5Z596328'
+        id: 'GTM-W86ZQN7',
+        enabled: true,
+        debug: true
       }
     }
   ]
