@@ -6,5 +6,12 @@
 
 module.exports = {
   siteName: 'hopscoders',
-  plugins: []
+  plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-4R5Z596328'
+      }
+    }
+  ]
 }
