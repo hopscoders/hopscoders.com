@@ -10,7 +10,6 @@
     "build": "gridsome build"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@popperjs/core": "2.9.3",
     "bootstrap": "^5.1.1",
     "gridsome": "^0.7.0",
